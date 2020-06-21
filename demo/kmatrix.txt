@@ -1,0 +1,22 @@
+KNOTEN:
+ID	Name		Beschreibung
+_____________________________________________________
+
+1,	MCU,		Motor controller of vehicle engine
+
+4,	Airbag-CU,		Airbag control unit
+
+10,	Speed-Sens,		Vehicle speed sensor
+
+11,	Angle-Sens,		Detects vehicle steering intent
+
+15,	Yaw-Sens,		Detects vehicle actual yaw rate
+-----------------------------------------------------
+NACHRICHTEN:
+Priorität	Empfänger	Sender	Name 		 Min.	 Max.	 Default.	 Sendeart	 Sendezyklus
+____________________________________________________________________________________________________________________________
+
+4,	       4,	       11,	    Driver steering intent,0,	180,	 90,	      1,	       5,	
+
+5,	       4,	       15,	    Current vehicle yaw rate,0,	360,	 5,	       1,	       5,	
+---------------------------------------------------------------------
