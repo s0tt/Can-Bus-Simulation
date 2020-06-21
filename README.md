@@ -6,13 +6,15 @@ The user can define its own CAN architecture with specific nodes and messages.
 Also a file export for the K-Matrix (automotive related communication matrix) is supported.
 
 
-Create, Edit and inspect the CAN nodes:
+Create, Edit and inspect the CAN nodes:  
+
 ![CAN nodes demo](demo/Demo_EditNode2.gif)
 
-Create messages for the specified CAN bus:
+Create messages for the specified CAN bus:  
+
 ![CAN messages demo](demo/Demo_Message.gif)
 
-Run a simulation of the message flow:
+Run a simulation of the message flow:  
 ![Simulation](demo/Demo_sim.gif)
 
 
